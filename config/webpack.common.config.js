@@ -2,8 +2,8 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: {
-    'purejs-vue': 'index.js',
-    'purejs-vue.min': './src/index.js'
+    'purev': 'index.js',
+    'purevPure': './src/pure.js'
   },
   output: {
     filename: '[name].js',
