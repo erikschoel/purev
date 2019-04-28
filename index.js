@@ -1,3 +1,3 @@
-exports.purev = function() {
-  console.log('test');
-}
+import sys from './core/pure';
+
+export sys;
